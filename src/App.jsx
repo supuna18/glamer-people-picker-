@@ -10,7 +10,7 @@ function cn(...inputs) {
 }
 
 // --- Mock Data Generator (As per PDF) ---
-const MOCK_DATA = Array.from({ length: 30 }).map((_, i) => ({
+const MOCK_DATA = Array.from({ length: 30 }).map((_, i) => ({ //array
   id: i + 1,
   name: `User ${i + 1}`,
   role: i % 3 === 0 ? 'Developer' : i % 3 === 1 ? 'Designer' : 'Manager',
