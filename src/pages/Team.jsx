@@ -111,7 +111,7 @@ export default function Team() {
     }
   };
 
-  // Scroll active item into view
+  // Scroll active item into view perfectly
   useEffect(() => {
     if (highlightedIndex >= 0 && listRef.current) {
       const activeItem = listRef.current.children[highlightedIndex];
