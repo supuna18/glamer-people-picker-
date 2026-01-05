@@ -1,6 +1,6 @@
 import React from 'react';
 import { Users, Activity, DollarSign } from 'lucide-react';
-import RevenueChart from '../components/RevenueChart'; // Import Chart
+import RevenueChart from '../components/RevenueChart'; // Import Chart from react lib
 import RecentActivity from '../components/RecentActivity'; // Import Activity
 
 const StatCard = ({ title, value, icon: Icon, color }) => (
