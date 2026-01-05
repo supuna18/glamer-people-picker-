@@ -124,7 +124,7 @@ export default function Team() {
   const activeUser = highlightedIndex >= 0 ? results[highlightedIndex] : selectedUsers[selectedUsers.length - 1];
 
   return (
-    // Layout එකට ගැලපෙන පරිදි මෙතැන styles වෙනස් කළා
+    // styles change to the layout to better fit the team picker
     <div className="w-full flex flex-col items-center font-sans">
       
       <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-3 gap-8">
